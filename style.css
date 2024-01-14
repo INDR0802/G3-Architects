@@ -3,6 +3,11 @@
     padding: 0px;
 }
 
+body {
+    max-width: 1600px;
+    margin: 0px auto;
+}
+
 .btn-primary {
     border-radius: 8px;
     background: #FF900E;
@@ -10,7 +15,7 @@
     border: none;
     color: #FFF;
     font-family: Work Sans;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -31,7 +36,7 @@ nav {
 nav>h3 {
     color: var(--Dark-01, #131313);
     font-family: Work Sans;
-    font-size: 45px;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -52,7 +57,7 @@ nav li a {
     color: var(--Dark-02, #424242);
     text-align: center;
     font-family: Work Sans;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 500;
 }
@@ -69,20 +74,23 @@ nav li a {
     color: var(--Dark-01, #131313);
     text-align: center;
     font-family: Work Sans;
-    font-size: 64px;
+    font-size: 4rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .banner-description {
     color: var(--Dark-03, #727272);
     text-align: center;
     font-family: Work Sans;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
+    margin-bottom: 20px;
     /* 162.5% */
 }
 
@@ -122,16 +130,17 @@ nav li a {
 .teams-content-title {
     color: var(--Dark-03, #727272);
     font-family: Work Sans;
-    font-size: 45px;
+    font-size: 2.8rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-top: -57px;
 }
 
 .teams-description {
     color: var(--Dark-03, #727272);
     font-family: Work Sans;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
@@ -143,11 +152,81 @@ nav li a {
 
 /* features-section */
 
-.features{
+.features {
     margin: 0px 240px;
     display: flex;
     justify-content: space-between;
+    gap: 30px;
 }
+
+.features h2 {
+    color: var(--Dark-01, #131313);
+    font-family: Work Sans;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-left: solid 3px #FF900E;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.card-description {
+    color: var(--Dark-03, #727272);
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.feature-card {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin: 20px 0px;
+    margin-right: 30px;
+    padding: 8%;
+}
+
+.features img {
+    height: 854px;
+}
+
+.experience {
+    position: relative;
+    top: -69px;
+    right: 40px;
+    height: 80px;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    background: #FF900E;
+    width: 250px;
+}
+
+.experience>h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 2.3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: -15px;
+}
+
+.experience>p {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+
 /* features-section */
 
 /* facts-section */
@@ -159,7 +238,7 @@ nav li a {
 .facts-text h3 {
     color: var(--Dark-01, #131313);
     font-family: Work Sans;
-    font-size: 45px;
+    font-size: 2.8rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -168,7 +247,7 @@ nav li a {
 .facts-text p {
     color: var(--Dark-03, #727272);
     font-family: Work Sans;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
@@ -200,7 +279,7 @@ p {
     color: var(--Dark-02, #424242);
     text-align: center;
     font-family: Work Sans;
-    font-size: 45px;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -209,7 +288,7 @@ p {
 .awards p {
     color: var(--Dark-03, #727272);
     font-family: Work Sans;
-    font-size: 20px;
+    font-size: 1.4rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -230,9 +309,10 @@ p {
 }
 
 .sponsor-text h3 {
+    margin-top: 20px;
     color: var(--Dark-01, #131313);
     font-family: Work Sans;
-    font-size: 45px;
+    font-size: 2.8rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -243,7 +323,7 @@ p {
     color: var(--Dark-03, #727272);
     text-align: center;
     font-family: Work Sans;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
@@ -274,6 +354,14 @@ footer {
     padding: 40px 50px;
     margin-top: 100px;
     margin-bottom: 100px;
+
+    color: var(--Dark-02, #424242);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 /* footer-section */
