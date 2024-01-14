@@ -107,6 +107,7 @@ nav li a {
     display: flex;
     align-items: center;
     padding: 50px 240px;
+    /* flex-wrap: wrap; */
 }
 
 .teams-img-container {
@@ -372,11 +373,92 @@ footer {
 /* mobile-devices */
 @media screen and (max-width: 576px) {
     header {
-        padding: 20px;
+        padding: 15px;
     }
 
     nav {
         flex-direction: column;
+    }
+
+    nav li a {
+        margin-right: -45px;
+    }
+
+    .teams {
+        padding-left: 15px;
+        flex-direction: column;
+        margin-left: 50%;
+    }
+
+    .teams-img-container {
+        grid-template-columns: 1fr;
+    }
+
+    .teams-content {
+        margin-top: 80px;
+        margin-bottom: 181px;
+        width: 258px;
+        padding-left: 0px;
+    }
+
+    .features {
+        margin-left: 20px;
+        flex-direction: column;
+    }
+
+    .features h2 {
+        width: 400px;
+    }
+
+    .card-description {
+        width: 400px;
+    }
+
+    .feature-card {
+        width: 300px;
+    }
+
+    .features img {
+        height: 510px;
+    }
+
+    .experience {
+        width: 217px;
+        left: 15px;
+    }
+
+    .facts{
+        margin-left: 20px;
+        flex-direction: column;
+    }
+    .facts-text h3{
+        width: 400px;
+    }
+    .facts-text p{
+        width: 400px;
+    }
+    .awards{
+        margin-left: 100%;
+    }
+
+    .sponsors{
+        margin-left: 20px;
+        flex-direction: column;     
+    }
+    .sponsor-text h3{
+        width: 400px;
+    }
+    .sponsor-text p{
+        width: 300px;
+        margin-left: -161%;
+    }
+    .sponsor-icons{
+        flex-wrap: wrap;
+    }
+    footer{
+        margin-left: 20px;
+        padding:0px 150px;
+        text-align: right;
     }
 }
 
@@ -389,6 +471,8 @@ footer {
     header {
         padding: 50px;
     }
+
+    body {}
 }
 
 /* responsive */
